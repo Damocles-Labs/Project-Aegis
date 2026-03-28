@@ -1,0 +1,31 @@
+# Project Aegis: Shield Gateway Security Policy
+# Goal: Zero-Telemetry, Intent-Based Filtering for Private Nodes
+
+gateway_config:
+  version: "1.0.0-alpha"
+  security_level: "Pedantic" # Default Deny All
+  
+  # Physical Layer Constraints
+  interfaces:
+    - wan: "Starlink_Mini_Bridge"
+    - lan: "Aegis_Vault_Internal"
+    - management: "Physical_Console_Only"
+
+  # Traffic Scrubbing (The "Shield")
+  packet_inspection:
+    strip_metadata: true
+    block_telemetry_domains:
+      - "*.telemetry.microsoft.com"
+      - "*.google-analytics.com"
+      - "*.stats.amplitude.com"
+    
+  # The "Tunnel" (Mobile Access)
+  remote_access:
+    protocol: "WireGuard/Tailscale"
+    auth: "MFA + Physical YubiKey"
+    session_limit: "4_Hours"
+
+  # Model Context Protocol (MCP) Bridge
+  mcp_bridge:
+    allowed_models: ["Llama-3-70B-Aegis", "Mistral-Large-Sovereign"]
+    data_retention: "RAM_Only"
