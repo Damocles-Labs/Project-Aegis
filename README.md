@@ -20,3 +20,18 @@ Core Goals:
 1. Establish 100% data sovereignty for local AI inference.
 2. Implement an anonymized "Air-Lock" for secure web-retrieval.
 3. Draft the Aegis Deployment Manual for independent hardware assembly.
+
+
+
+
+
+[ SATELLITE ] <--- (Starlink Mini) ---.
+              |                               |
+              v                               v
+      +-----------------+            +-----------------+
+      |   THE SHIELD    |            |   THE VAULT     |
+      | (Mobile Gateway)| <========> | (Home Compute)  |
+      +-----------------+   Secure   +-----------------+
+              |             Tunnel            |
+      [ YOU / LAPTOP ]                [ 2x RTX 5090 ]
+      (Field Operations)              (Local Inference)
