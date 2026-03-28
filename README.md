@@ -3,6 +3,8 @@ A Digital Sovereign Companion
 
 Project Aegis: Decentralized AI Sovereignty
 
+<br><br><br>
+
 Project Description:
 Project Aegis is a defensive, research-driven architecture designed to provide a high-utility, air-locked personal AI assistant. 
 By utilizing a dual-node "Shield and Vault" system, Aegis allows users to integrate sensitive personal data (e.g., medical, 
@@ -13,6 +15,8 @@ Project Status:
 
 Phase: Alpha / Research-only.
 
+<br><br><br>
+
 Integrity Policy: All core commits are GPG/FIDO2 signed. This project operates on a Zero-Trust model to prevent "Agentic 
 Misalignment" and supply chain corruption.
 
@@ -21,9 +25,7 @@ Core Goals:
 2. Implement an anonymized "Air-Lock" for secure web-retrieval.
 3. Draft the Aegis Deployment Manual for independent hardware assembly.
 
-
-
-
+<br><br><br>
 
 ##Tactical Connectivity & Geospatial Independence
 [ SATELLITE ] <--- (Starlink Mini) ---.
@@ -40,9 +42,7 @@ Core Goals:
 
 Project Aegis: High-performance local AI, air-gapped at home, securely accessible in the field.
 
-
-
-
+<br><br><br>
 
 ##Project Structure
 
@@ -58,9 +58,7 @@ Project Aegis: High-performance local AI, air-gapped at home, securely accessibl
 ├── .gitignore               # Standard exclusions
 └── README.md                # The "Hero" page with your vision
 
-
-
-
+<br><br><br>
 
 ##Core Philosophy: 
 
