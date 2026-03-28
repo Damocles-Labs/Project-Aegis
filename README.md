@@ -1,7 +1,5 @@
-# Project-Aegis
-A Digital Sovereign Companion
+# Project-Aegis: A Digital Sovereign Companion
 
-## Project Aegis: Decentralized AI Sovereignty
 
 <br>
 
