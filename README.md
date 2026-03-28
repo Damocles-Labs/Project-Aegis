@@ -25,6 +25,7 @@ Core Goals:
 
 
 
+##Tactical Connectivity & Geospatial Independence
 [ SATELLITE ] <--- (Starlink Mini) ---.
               |                               |
               v                               v
@@ -35,3 +36,24 @@ Core Goals:
               |             Tunnel            |
       [ YOU / LAPTOP ]                [ 2x RTX 5090 ]
       (Field Operations)              (Local Inference)
+
+
+Project Aegis: High-performance local AI, air-gapped at home, securely accessible in the field.
+
+
+
+
+
+##Project Structure
+
+/project-aegis
+├── /docs
+│   ├── ARCHITECTURE.md      # The ASCII diagram and "Shield & Vault" logic
+│   ├── HARDWARE.md          # The BOM table we built earlier
+│   └── SOVEREIGNTY_MANUAL.md # Draft: The "How-To" for the community
+├── /shield
+│   └── gateway-policy.yaml   # The YAML file above
+├── /vault
+│   └── setup-scripts/       # (Future) Scripts for local model orchestration
+├── .gitignore               # Standard exclusions
+└── README.md                # The "Hero" page with your vision
